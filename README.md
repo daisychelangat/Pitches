@@ -16,7 +16,7 @@ Technologies Used
 *Python-Flask - To build the website with flask as a framework and for making folder structure *HTML5- To display and for Hypertext *CSS- Cascading styles for styling the html *Heroku- to host the website *Github- to host the web building process with a live link
 
 Support and contact details
-My sincere gratitudes to my TM Mr. Edgar Kibet for the guidance during this project implementation. Reach me on email: ole_sigilai@yahoo.com
+My sincere gratitudes to my TM Mr. Edgar Kibet for the guidance during this project implementation. Reach me on email: daisyrop2000@gmail.com
 
 MIT License
 

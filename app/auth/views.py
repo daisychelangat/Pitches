@@ -1,5 +1,5 @@
 from flask import render_template,redirect,url_for, flash,request
-from . import auth
+from .import auth
 from ..models import User
 from .forms import LoginForm,RegistrationForm
 from .. import db
@@ -7,7 +7,7 @@ from flask_login import login_user,logout_user,login_required
 
 
 @auth.route('/login',methods=['GET','POST'])
-def login():
+def login(): 
     login_form = LoginForm()
     if login_form.validate_on_submit():
         user = User.query.filter_by(email = login_form.email.data).first()

@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <title></title>
   </head>
+  <link rel="stylesheet" href="../static/css/index.css">
+  
   <body>
     <div class="navbar navbar-inverse" role="navigation">
         <div class="container-fluid">
@@ -14,25 +16,22 @@
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/"> PITCH-APP </a>
+                <a class="navbar-brand" href="/"> PITCH HERE! </a>
             </div>
             <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li><a href="/">Home</a></li>
-                    <!-- <li><a href="/categories/Product">Production</a></li> -->
-                    <!-- <li><a href="/categories/Adverts">Adverting</a></li> -->
-                    <!-- <li><a href="/categories/Interview">Interview</a></li> -->
-                </ul>
-            <ul class="nav navbar-nav navbar-right">
-            {% if current_user.is_authenticated %}
-            <li><a href="{{url_for('main.profile',uname=current_user.username)}}">Profile</a></li>
-             <li><a href="{{url_for('auth.logout')}}">Sign out</a></li>
-             {% else %}
-            <li><a href="{{url_for('auth.login')}}">Sign in</a></li>
-             {%endif%}
-          </ul>
-        </div>
+              <ul class="nav navbar-nav">
+                  <li><a href="/">Home</a></li>
+                  <ul class="nav navbar-nav navbar-right">
+                      {% if current_user.is_authenticated %}
+                      <li><a href="{{url_for('main.profile',uname=current_user.author)}}">Profile</a></li>
+                      <li><a href="/">Welcome {{(current_user.author)}}</a></li>
+                      <li><a href="{{url_for('auth.logout')}}">Sign out</a></li>
+                      {% else %}
+                      <li><a href="{{url_for('auth.login')}}">Sign in</a></li>
+                      {%endif%}
+                    </ul>
+          </div>
        </div>
    </div>
 </body>
-</html> 
+</html>

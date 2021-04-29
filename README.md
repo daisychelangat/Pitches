@@ -1,22 +1,30 @@
 # Pitches
-this Project was created on 25/04/2021.
+This Project was created on 25/04/2021.
+
 Author
 Daisy Chelangat Rop
 
-Pitch website
+#Pitch website
+
 This is a website dedicated to help users make important decisions in life within a minute. Users are able to comment and view other app user's comments.
 
-project Set up Instructions
-Ctrl + alt + t to open the terminal
-now git clone https://github.com/daisychelangat/Pitches
-cd Pitches
-you can use code . or atom . to open it.
-Known Bugs
-Technologies Used
-*Python-Flask - To build the website with flask as a framework and for making folder structure *HTML5- To display and for Hypertext *CSS- Cascading styles for styling the html *Heroku- to host the website *Github- to host the web building process with a live link
+#Project Set up Instructions
 
-Support and contact details
-My sincere gratitudes to my TM Mr. Edgar Kibet for the guidance during this project implementation. Reach me on email: daisyrop2000@gmail.com
+Ctrl + alt + t to open the terminal.
+Now git clone https://github.com/daisychelangat/Pitches.
+cd Pitches
+You can use code . or atom . to open it.
+
+#Known Bugs
+
+T#echnologies Used
+*Python-Flask - To build the website with flask as a framework and for making folder structure
+*HTML5- To display and for Hypertext
+*CSS- Cascading styles for styling the html *Heroku- to host the website 
+*Github- to host the web building process with a live link
+
+#Support and contact details
+Reach me on email: daisyrop2000@gmail.com
 
 MIT License
 
